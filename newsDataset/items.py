@@ -10,10 +10,60 @@ import scrapy
 
 class NewsdatasetItem(scrapy.Item):
     # define the fields for your item here like:
-    date = scrapy.Field()
+    id = scrapy.Field()
     title = scrapy.Field()
     desc = scrapy.Field()
+    date = scrapy.Field()
     source = scrapy.Field()
-    location = scrapy.Field()
+    url = scrapy.Field()
     category = scrapy.Field()
-    pass
+
+class PolitikNewsItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
+    date = scrapy.Field()
+    source = scrapy.Field()
+    url = scrapy.Field()
+    category = scrapy.Field()
+    # location = scrapy.Field()
+
+class HukumNewsItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
+    date = scrapy.Field()
+    source = scrapy.Field()
+    url = scrapy.Field()
+    category = scrapy.Field()
+    # location = scrapy.Field()
+
+class EkonomiNewsItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
+    date = scrapy.Field()
+    source = scrapy.Field()
+    url = scrapy.Field()
+    category = scrapy.Field()
+    # location = scrapy.Field()
+
+class KesehatanNewsItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
+    date = scrapy.Field()
+    source = scrapy.Field()
+    url = scrapy.Field()
+    category = scrapy.Field()
+    # location = scrapy.Field()
+
+class TeknologiNewsItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
+    date = scrapy.Field()
+    source = scrapy.Field()
+    url = scrapy.Field()
+    category = scrapy.Field()
+    # location = scrapy.Field()

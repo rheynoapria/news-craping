@@ -5,7 +5,7 @@ from newsDataset.items import NewsdatasetItem
 
 
 class NewsSpider(scrapy.Spider):
-    name = 'news'
+    name = 'bisnis-news'
     allowed_domains = ['tribunnews.com']
     start_urls = ['http://tribunnews.com/bisnis']
 
